@@ -12,6 +12,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Disable ADB authentication
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 
