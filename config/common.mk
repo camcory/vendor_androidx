@@ -53,3 +53,5 @@ PRODUCT_PACKAGES += \
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common
+
+-include vendor/androidx/sepolicy/sepolicy.mk
