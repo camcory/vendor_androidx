@@ -35,3 +35,6 @@ PRODUCT_PACKAGES += \
 # Emoji
 PRODUCT_PACKAGES += \
     libemoji
+
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common
