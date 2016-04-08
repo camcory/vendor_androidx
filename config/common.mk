@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/androidx/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
+# Latin IME lib
+PRODUCT_COPY_FILES += \
+    vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
