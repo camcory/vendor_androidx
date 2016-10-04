@@ -20,8 +20,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
-    vendor/androidx/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/androidx/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
