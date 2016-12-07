@@ -18,4 +18,6 @@
         <item>users</item>
     </string-array>
 
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
