@@ -12,3 +12,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common
+
+# Google sounds
+include vendor/androidx/google/GoogleAudio.mk
