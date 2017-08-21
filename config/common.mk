@@ -5,9 +5,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 
 # Additional packages
-PRODUCT_PACKAGES += \
-    OmniSubs \
-    OmniTheme
+#PRODUCT_PACKAGES += \
+#    OmniSubs \
+#    OmniTheme
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common

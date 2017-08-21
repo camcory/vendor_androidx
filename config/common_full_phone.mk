@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     Development \
     LatinIME \
     Launcher3 \
-    ThemeInterfacer
+#    ThemeInterfacer
 
 # Emoji
 PRODUCT_PACKAGES += \
