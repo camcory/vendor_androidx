@@ -29,7 +29,8 @@ PRODUCT_COPY_FILES +=  \
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
-    vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/androidx/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
