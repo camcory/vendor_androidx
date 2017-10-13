@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
-    Camera2 \
     CellBroadcastReceiver \
     Development \
     LatinIME \
