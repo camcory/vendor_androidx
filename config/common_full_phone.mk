@@ -11,7 +11,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false \
-    ro.config.alarm_alert=Krypton.ogg \
     ro.substratum.verified=true
 
 # Bring in camera effects
