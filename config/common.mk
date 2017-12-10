@@ -12,6 +12,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
 
+PRODUCT_PACKAGES += \
+    AndroidDarkThemeOverlay \
+    SettingsDarkThemeOverlay
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common
 
