@@ -7,6 +7,10 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Launcher3
 
+# Themes
+PRODUCT_PACKAGES += \
+    SystemDarkTheme
+
 # DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
