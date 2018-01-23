@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    SystemDarkTheme
+    SettingsDarkTheme \
+    SystemDarkTheme \
 
 # DU Utils Library
 #PRODUCT_PACKAGES += \
