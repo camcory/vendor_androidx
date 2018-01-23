@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SettingsDarkTheme \
     SystemDarkTheme \
+    SystemUITheme
 
 # DU Utils Library
 #PRODUCT_PACKAGES += \
