@@ -1,6 +1,5 @@
 # Inherit common product files.
-$(call inherit-product, vendor/androidx/config/common_full_phone.mk)
-$(call inherit-product, vendor/androidx/config/gsm.mk)
+$(call inherit-product, vendor/androidx/config/common.mk)
 
 # Inherit AOSP device configuration for shamu.
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
