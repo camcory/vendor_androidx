@@ -9,9 +9,30 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
+    AmberAccent \
+    BlackAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
     SettingsDarkTheme \
     SystemDarkTheme \
-    SystemUITheme
+    SystemUITheme \
+    TealAccent \
+    YellowAccent \
+    WhiteAccent
 
 # DU Utils Library
 #PRODUCT_PACKAGES += \
