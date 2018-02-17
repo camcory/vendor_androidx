@@ -7,11 +7,6 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Launcher3
 
-# System themes
-PRODUCT_PACKAGES += \
-    AndroidDarkThemeOverlay \
-    SettingsDarkThemeOverlay
-
 # DU Utils Library
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
