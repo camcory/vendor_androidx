@@ -14,4 +14,5 @@
 # limitations under the License.
 #
 
+add_lunch_combo androidx_berkeley-userdebug
 add_lunch_combo androidx_shamu-userdebug

@@ -22,14 +22,14 @@ PRODUCT_COPY_FILES += \
     vendor/androidx/build/tools/backuptool.functions:install/bin/backuptool.functions \
     vendor/androidx/build/tools/50-custom.sh:system/addon.d/50-custom.sh
 
-# Bring in camera effects
-PRODUCT_COPY_FILES +=  \
-    vendor/androidx/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
-
 # Latin IME lib
+ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+else
+PRODUCT_COPY_FILES += \
+    vendor/androidx/prebuilt/common/lib64/libjni_latinime.so:system/lib/libjni_latinime.so
+endif
 
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
