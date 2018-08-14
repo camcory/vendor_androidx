@@ -4,8 +4,7 @@ PRODUCT_PACKAGES += \
     Basic \
     CellBroadcastReceiver \
     Development \
-    LatinIME \
-    Launcher3
+    LatinIME
 
 # DU Utils Library
 #PRODUCT_PACKAGES += \
