@@ -16,3 +16,8 @@ PRODUCT_PACKAGES += \
 # SIM Toolkit
 PRODUCT_PACKAGES += \
     Stk
+
+# Turbo
+PRODUCT_PACKAGES += \
+    Turbo \
+    turbo.xml
