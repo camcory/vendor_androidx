@@ -6,12 +6,12 @@ PRODUCT_PACKAGES += \
     Development \
     LatinIME
 
-# DU Utils Library
-#PRODUCT_PACKAGES += \
-#    org.dirtyunicorns.utils
-
-#PRODUCT_BOOT_JARS += \
-#    org.dirtyunicorns.utils
+# Themes
+PRODUCT_PACKAGES += \
+    SettingsDarkThemeOverlay \
+    SettingsIntelligenceDarkThemeOverlay \
+    SystemDarkThemeOverlay \
+    SystemUIDarkThemeOverlay
 
 # SIM Toolkit
 PRODUCT_PACKAGES += \
