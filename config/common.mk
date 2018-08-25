@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     vendor/androidx/build/tools/backuptool.functions:install/bin/backuptool.functions \
     vendor/androidx/build/tools/50-custom.sh:system/addon.d/50-custom.sh
 
+# Clean cache
+PRODUCT_COPY_FILES += \
+    vendor/androidx/build/tools/clean_cache.sh:system/bin/clean_cache.sh
+
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/androidx/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
