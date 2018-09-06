@@ -48,6 +48,3 @@ include vendor/androidx/google/GoogleAudio.mk
 
 # Packages
 include vendor/androidx/config/products.mk
-
-# Gapps
-include vendor/gapps/config.mk
